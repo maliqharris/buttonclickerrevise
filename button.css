@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.fullpage{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-right: 100px;
+    margin-left: 100px;
+  
+}
+.Topbar{
+    background-color: rgb(213, 211, 211);
+    align-items: center;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+.Topbar h1{
+    margin-left: 15px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+}
+.button {
+    margin-right: 15px;
+    background-color: rgb(45, 99, 186);
+    text-align: center;
+    font-size: large;
+    font-weight: lighter;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border: 2px solid black;
+    color: white;
+    box-shadow: 3px 3px black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+input{
+    height: 25px;
+    width: 200px;
+    border: 3px solid black;
+}
+.bottom{
+    display: flex;
+    height: 500px;
+}
+.leftside{
+    flex: 2;
+    margin-right: 15px;
+    display: flex;
+    flex-direction: column;
+}
+.rightside{
+    flex: 1;
+    margin-left: 15px;
+    display: flex;
+}
+.lefttop{
+    margin-top: 20px;
+    height: 180px;
+    border: 4px solid black;
+    display: flex;
+}
+.topleft{
+flex: 1;
+display: flex;
+align-items: center;
+flex-direction: column;
+}
+.topleft h1{
+    margin-top: 10px;
+}
+.topleft h3{
+    margin-top: 8px;
+    font-style: italic ;
+    font-weight: lighter;
+}
+.topleft p{
+    margin-top: 8px ;
+}
+.topleft button{
+    border: 4px solid black;
+    background-color: rgb(243, 212, 36);
+    box-shadow: 5px 5px black;
+    margin-top: 20px;
+    font-weight: lighter;
+    font-size: 15px;
+    padding-right: 15px;
+    text-align: center;
+    padding-left: 15px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.topright{
+flex: 2;
+display: flex;
+align-items: center;
+margin-left: 30px;
+}
+.topright h2{
+    font-size: medium;
+    font-weight: light;
+   
+}
+.blue {
+    text-decoration: underline;
+    color: blue;
+}
+.leftbottom{
+    margin-top: 20px;
+    height: 180px;
+    border: 4px solid black;
+    display: flex;
+}
+.bottomleft{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    }
+    .bottomleft h1{
+        margin-top: 10px;
+    }
+    .bottomleft h3{
+        margin-top: 8px;
+        font-style: italic ;
+        font-weight: lighter;
+    }
+    .bottomleft p{
+        margin-top: 8px ;
+    }
+    .ital{
+        font-style: italic;
+    }
+    .bottomleft button{
+        border: 4px solid black;
+        background-color:  rgb(243, 212, 36);
+        box-shadow: 5px 5px black;
+        margin-top: 20px;
+        font-weight: lighter;
+        font-size: 15px;
+        padding-right: 15px;
+        text-align: center;
+        padding-left: 15px;
+        padding-top: 7px;
+        padding-bottom: 7px;
+    }
+    .bottomright{
+    flex: 2;
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    }
+    .bottomright h2{
+        font-size: medium;
+        font-weight: light;
+    }
+    .rightside{
+    margin-top: 20px;
+    height: 140px;
+    border: 4px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.rightside h2{
+    margin-top: 10px;
+    font-weight: lighter;
+}
+.bold{
+    font-weight: bold;
+}
+.greenbutton{
+    margin-top: 20px;
+    background-color: rgb(121, 205, 121);
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: large;
+    border: 3px solid black;
+    box-shadow: 5px 5px black;
+}
